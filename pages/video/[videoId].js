@@ -10,7 +10,7 @@ import Dislike from "../../components/icons/dislike-icon";
 
 Modal.setAppElement("#__next");
 
-export async function getStaticProps(context: any) {
+export async function getStaticProps(context) {
   // const video = {
   //   title: "Clifford The Big Red Dog",
   //   publishTime: "1990-10-11",
@@ -48,7 +48,7 @@ export async function getStaticPaths() {
   return { paths, fallback: "blocking" };
 }
 
-export default function Video({ video }: any) {
+export default function Video({ video }) {
   const router = useRouter();
   const videoId = router?.query?.videoId;
 
@@ -147,6 +147,7 @@ export default function Video({ video }: any) {
         <div>
           <iframe
             id="player"
+            type="text/html"
             width="100%"
             height="390"
             src={`http://www.youtube.com/embed/${videoId}?enablejsapi=1&origin=http://example.com&controls=0`}
