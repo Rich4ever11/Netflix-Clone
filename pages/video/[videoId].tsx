@@ -147,11 +147,10 @@ export default function Video({ video }: any) {
         <div>
           <iframe
             id="player"
-            type="text/html"
             width="100%"
             height="390"
             src={`http://www.youtube.com/embed/${videoId}?enablejsapi=1&origin=http://example.com&controls=0`}
-            frameborder="0"
+            frameBorder="0"
             className={styles.videoPlayer}
           ></iframe>
           <div className={styles.modalBody}>
