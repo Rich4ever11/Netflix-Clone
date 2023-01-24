@@ -1,7 +1,7 @@
 import styles from "./Banner.module.css";
 import { useRouter } from "next/router";
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import data from "../../data/BannerObjectList.json";
 
 export default function Banner(props: any) {
@@ -30,11 +30,9 @@ export default function Banner(props: any) {
     const newIterator = Math.floor(Math.random() * data.items.length);
     setBanner(newIterator);
     setIterator(newIterator);
-    console.log(newIterator);
   }
 
   function handleOnPlay() {
-    console.log("play");
     router.push(`video/${videoId}`);
   }
   return (

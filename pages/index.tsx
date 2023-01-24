@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
 import Banner from "../components/Banner/Banner";
 import NavBar from "../components/NavBar/NavBar";
@@ -10,7 +9,6 @@ import {
   getPreviouslyWatchedVideos,
 } from "../lib/videos";
 import useRedirectUser from "../utils/redirectUser";
-const inter = Inter({ subsets: ["latin"] });
 
 export async function getServerSideProps(context: any) {
   const { userId, cookiesToken } = await useRedirectUser(context);

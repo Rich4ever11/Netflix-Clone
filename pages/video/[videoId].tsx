@@ -72,7 +72,6 @@ export default function Video({ video }: any) {
         },
       });
       const data = await response.json();
-      console.log("data", data);
       if (data.foundVideos) {
         const favourited = data.foundVideos[0].favourited;
         if (favourited === 1) {
@@ -86,7 +85,6 @@ export default function Video({ video }: any) {
   }, []);
 
   async function handleToggleDislike() {
-    console.log("Disliked Video");
     const dislikeValue = !toggleDislike;
     setToggleDislike(!toggleDislike);
     setToggleLike(toggleDislike);
@@ -101,11 +99,9 @@ export default function Video({ video }: any) {
         favourited: dislikeValue ? 0 : 1,
       }),
     });
-    console.log("data", await response.json());
   }
 
   async function handleToggleLike() {
-    console.log("Liked Video");
     const likeValue = !toggleLike;
     setToggleLike(likeValue);
     setToggleDislike(toggleLike);
@@ -120,7 +116,6 @@ export default function Video({ video }: any) {
         favourited: likeValue ? 1 : 0,
       }),
     });
-    console.log("data", await response.json());
   }
 
   return (

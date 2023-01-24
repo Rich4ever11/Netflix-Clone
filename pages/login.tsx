@@ -51,7 +51,6 @@ export default function login() {
 
           const loggedInResponse = await response.json();
           if (loggedInResponse.done) {
-            console.log(loggedInResponse);
             router.push("/");
           } else {
             setIsLoading(false);
@@ -61,7 +60,7 @@ export default function login() {
       } catch (error) {
         // Handle errors if required!
         setIsLoading(false);
-        console.log("Something went wrong logging in!", error);
+        console.error("Something went wrong logging in!", error);
       }
     } else {
       setIsLoading(false);

@@ -17,8 +17,8 @@ export default function (props: any) {
     // Assumes a user is already logged in
     try {
       const getEmail = async () => {
-        const { email } = await magic?.user?.getMetadata();
-        const didToken = await magic.user.getIdToken();
+        const { email }: any = (await magic?.user?.getMetadata()) || "";
+        const didToken = (await magic?.user.getIdToken()) || "";
 
         if (email) {
           setUserEmail(email);
@@ -28,7 +28,7 @@ export default function (props: any) {
       getEmail();
     } catch (error) {
       // Handle errors if required!
-      console.log("Error retrieving email", error);
+      console.error("Error retrieving email", error);
     }
   }, []);
 
@@ -47,7 +47,7 @@ export default function (props: any) {
       router.push("/login");
     } catch (error) {
       // Handle errors if required!
-      console.log("Error Signing User Out", error);
+      console.error("Error Signing User Out", error);
       router.push("/login");
     }
   }
@@ -97,7 +97,6 @@ export default function (props: any) {
                 width={50}
                 height={50}
               />
-              {/* <p className={styles.username}>{userEmail}</p> */}
               <Image
                 src="/static/expandMore.svg"
                 alt="Expand More Icon"
