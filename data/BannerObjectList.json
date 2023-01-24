@@ -1,0 +1,103 @@
+{
+    "items": [
+        {
+            "title": "Clifford The Big Red Dog",
+            "titleCard" : "/static/CliffordTitleCard.png",
+            "videoId": "4zH5iYM4wJo",
+            "subTitle": "As middle schooler Emily Elizabeth struggles to fit in at home and at school, she discovers a small red puppy who is destined to become her best friend from a magical animal rescuer.",
+            "imgUrl": "/static/CliffordDogDefaultImage.jpg",
+            "height": 300,
+            "width": 550
+        },
+        {
+            "title": "The Irishman",
+            "videoId": "WHXxVmeGQUc",
+            "titleCard" : "/static/IrishmanTitleCard.png",
+            "subTitle": "In the 1950s, truck driver Frank Sheeran gets involved with Russell Bufalino and his Pennsylvania crime family. As Sheeran climbs the ranks to become a top hit man, he also goes to work for Jimmy Hoffa -- a powerful Teamster tied to organized crime.",
+            "imgUrl": "/static/IrishmanImage.jpg",
+            "height": 300,
+            "width": 900
+        },
+        {
+            "title": "Don't Look Up",
+            "videoId": "SL9aJcqrtnw",
+            "titleCard" : "/static/dontLookUpTitleCard.png",
+            "subTitle": "Two astronomers go on a media tour to warn humankind of a planet-killing comet hurtling toward Earth. The response from a distracted world: Meh.",
+            "imgUrl": "/static/dontLookUp.jpg",
+            "height": 400,
+            "width": 400
+        },
+        {
+            "title": "All Quiet On The Western Front",
+            "videoId": "hf8EYbVxtCY",
+            "titleCard" : "/static/AllQuietOnTheWesternFrontTitleCard.png",
+            "subTitle": "When 17-year-old Paul joins the Western Front in World War I, his initial excitement is soon shattered by the grim reality of life in the trenches.",
+            "imgUrl": "/static/allQuietOnTheWesternFrontBanner.jpg",
+            "height": 200,
+            "width": 700
+        },
+        {
+            "title": "Breaking Bad",
+            "videoId": "HhesaQXLuRY",
+            "titleCard" : "/static/BreakingBadTitleCard.png",
+            "subTitle": "Walter White, a one-time mild-mannered chemistry teacher whose transformation into a deadly criminal kicks into overdrive.",
+            "imgUrl": "/static/BreakingBadBanner.jpg",
+            "height": 350,
+            "width": 700
+        },
+        {
+            "title": "The Gray Man",
+            "videoId": "BmllggGO4pM",
+            "titleCard" : "/static/TheGrayManTitleCard.png",
+            "subTitle": "When a shadowy CIA agent uncovers damning agency secrets, he’s hunted across the globe by a sociopathic rogue operative who’s put a bounty on his head.",
+            "imgUrl": "/static/theGrayManBanner.jpg",
+            "height": 250,
+            "width": 1000
+        },
+        {
+            "title": "The Red Notice",
+            "videoId": "Pj0wz7zu3Ms",
+            "titleCard" : "/static/redNoticeTitleCard.png",
+            "subTitle": "An FBI profiler pursuing the world's most wanted art thief becomes his reluctant partner in crime to catch an elusive crook who's always one step ahead.",
+            "imgUrl": "/static/theRedNoticeBanner.jpg",
+            "height": 100,
+            "width": 500
+        },
+        {
+            "title": "The Adam Project",
+            "videoId": "IE8HIsIrq4o",
+            "titleCard" : "/static/theAdamProjectTitleCard.png",
+            "subTitle": "After accidentally crash-landing in 2022, time-traveling fighter pilot Adam Reed teams up with his 12-year-old self on a mission to save the future.",
+            "imgUrl": "/static/theAdamProjectBanner.jpg",
+            "height": 200,
+            "width": 700
+        },
+        {
+            "title": "JUNG_E",
+            "videoId": "QQjLp1uvQb8",
+            "titleCard" : "/static/JUNG_ETitleCard.png",
+            "subTitle": "In a post-apocalyptic near-future, a researcher at an AI lab leads the effort to end a civil war by cloning the brain of a heroic soldier — her mother.",
+            "imgUrl": "/static/JUNG_EBanner.webp",
+            "height": 150,
+            "width": 700
+        },
+        {
+            "title": "The Sea Beast",
+            "videoId": "Ua-b6CDFU-A",
+            "titleCard" : "/static/theSeaBeastTitleCard.png",
+            "subTitle": "When a young girl stows away on the ship of a legendary sea monster hunter, they launch an epic journey into uncharted waters — and make history to boot.",
+            "imgUrl": "/static/theSeaBeastBanner.jpg",
+            "height": 200,
+            "width": 700
+        },
+        {
+            "title": "Finding ‘Ohana",
+            "videoId": "FTqLUEpWqEc",
+            "titleCard" : "/static/FindingOhanaTitleCard.png",
+            "subTitle": "On Oʻahu for the summer, two siblings from Brooklyn connect with their Hawaiian heritage — and their family — on a daring quest for long-lost treasure.",
+            "imgUrl": "/static/FindingOhanaBanner.jpg",
+            "height": 200,
+            "width": 800
+        }
+    ]
+}
