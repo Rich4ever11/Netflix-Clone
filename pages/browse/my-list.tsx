@@ -4,7 +4,7 @@ import SectionCards from "../../components/Card/Section-Cards";
 import { getMyFavouriteVideos } from "../../lib/videos";
 import useRedirectUser from "../../utils/redirectUser";
 
-import styles from "../../styles/myList.module.css";
+import styles from "../../styles/MyList.module.css";
 
 export async function getServerSideProps(context: any) {
   const { userId, cookiesToken } = await useRedirectUser(context);
