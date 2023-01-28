@@ -85,7 +85,7 @@ export default function (props: any) {
             Home
           </li>
           <li className={styles.navItem} onClick={handleOnClickMyList}>
-            My List
+            Contact Support
           </li>
         </ul>
         <nav className={styles.navContainer}>
